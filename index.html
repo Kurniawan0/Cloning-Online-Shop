@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>SHOP</title>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="image/toko-online.jpg"
+            width="50"
+            height="50"
+            class="me-2"
+          />
+          Wannz<strong> Store</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto my-4 my-lg-0">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Find Your Item"
+              aria-label="Search"
+            />
+            <button class="btn-search btn-light ms-1" type="submit">
+              <i data-feather="search"></i>
+            </button>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Keranjang</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Daftar.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR End -->
+
+    <!-- CROUSEL START -->
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide mt-2"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="image/produk2.png"
+              width="1300px"
+              class="d-block img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/produk2.png"
+              width="1300px"
+              class="d-block img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/produk2.png"
+              width="1300px"
+              class="d-block img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/produk2.png"
+              width="1300px"
+              class="d-block img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/produk2.png"
+              width="1300px"
+              class="d-block img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/produk2.png"
+              width="1300px"
+              class="d-block img-fluid"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- CROUSEL END -->
+
+    <!-- KATEGORI START -->
+
+    <div class="container mt-5">
+      <div
+        class="judul-Kategori"
+        style="background-color: #fff; padding: 5px 10px"
+      >
+        <h5 class="text-center" style="margin-top: 5px">KATEGORI</h5>
+      </div>
+      <div class="background row text-center row-container mt-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/baju.png" class="mt-3" /></a>
+            <p class="mt-2">Baju</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/celana.png" class="mt-3" /></a>
+            <p class="mt-2">Celana</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/elektronik.png" class="mt-3" /></a>
+            <p class="mt-2">Elektronik</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/fotografi.png" class="mt-3" /></a>
+            <p class="mt-2">Foto Grafi</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/hp.png" class="mt-3" /></a>
+            <p class="mt-2">HandPhone</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/jamtangan.png" class="mt-3" /></a>
+            <p class="mt-2">Jam</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/kecantikan.png" class="mt-3" /></a>
+            <p class="mt-2">Kecantikan</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/kesehatan.png" class="mt-3" /></a>
+            <p class="mt-2">Kesehatan</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/laptop.png" class="mt-3" /></a>
+            <p class="mt-2">Laptop</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/otomotif.png" class="mt-3" /></a>
+            <p class="mt-2">Otomotif</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/sepatu.png" class="mt-3" /></a>
+            <p class="mt-2">Sepatu</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href="#"><img src="image/tas.png" class="mt-3" /></a>
+            <p class="mt-2">Tas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- KATEGORI END -->
+
+    <!-- PRODUK START -->
+
+    <div class="container mt-2">
+      <div
+        class="judul-Kategori"
+        style="background-color: #fff; padding: 5px 10px"
+      >
+        <h5 class="text-center" style="margin-top: 5px">PRODUK</h5>
+      </div>
+      <div class="row">
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Headset</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.360.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk2.baju.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Baju</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.100.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Sepatu</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.5.800.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Jam Tangan</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.500.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Pembersih</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.50.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Tas</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.100.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Kamera</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.4.560.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Celana</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.200.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg2 col-md-4 col-sm-4 col-6">
+          <div class="card text-center mt-2">
+            <img src="image/produk9.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Keyboard</h6>
+              <div class="Star" style="color: orange">
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </div>
+              <p class="card-text mt-2">RP.500.000</p>
+              <a href="#" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PRODUK END -->
+    <!-- FOOTER START -->
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="#" style="text-decoration: none">
+              <img src="image/toko-online.jpg" style="width: 40px" alt="" />
+            </a>
+            <span class="ps-1">Copyright @2021 | Created with Kurniawan</span>
+            <div class="icon-Footer">
+              <i data-feather="instagram"></i>
+              <i data-feather="facebook"></i>
+              <i data-feather="linkedin"></i>
+              <i data-feather="twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script>
+      feather.replace();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

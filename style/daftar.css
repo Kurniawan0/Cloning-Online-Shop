@@ -1,0 +1,101 @@
+* {
+  font-family: "poppins", sans-serif;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+html {
+  background-color: #f6f7fb;
+  list-style: none;
+  text-decoration: none;
+}
+
+.from-Container {
+  position: absolute;
+  top: 23%;
+  left: 27%;
+  transform: translate(-50% -50%);
+  padding: 30px 120px;
+  box-shadow: 3px 3px 10px 0px #000;
+  border-radius: 15px;
+  width: 90vh;
+  height: 550px;
+  background-color: #fff;
+}
+.bottom-Kembali {
+  margin-top: -49px;
+}
+
+.bottom-Kembali h2 a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 32px;
+  margin-bottom: -500px;
+  transition: 0.5s;
+  font-size: 1rem;
+  background: red;
+  border-radius: 5px;
+}
+
+.bottom-Kembali h2 a:hover {
+  background: rgb(48, 178, 238);
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .from-Container {
+    height: 900px;
+  }
+
+  .button-Masuk {
+    margin-left: -400px;
+    margin-top: 50px;
+    width: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1692px) {
+  .from-Container {
+    height: 550px;
+    width: 200vh;
+    margin-left: -100px;
+  }
+}
+
+@media (min-width: 1105px) and (max-width: 1506px) {
+  .from-Container {
+    margin-left: -215px;
+  }
+}
+
+@media (max-width: 1104px) and (min-width: 768px) {
+  .from-Container {
+    margin-left: -250px;
+  }
+}
+
+@media (max-width: 602px) {
+  .from-Container {
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .from-Container {
+    height: 1020px;
+  }
+  .bottom-Kembali {
+    margin-left: -350px;
+  }
+  .bottom-Kembali h2 a {
+    font-size: 1rem;
+  }
+
+  .button-Masuk {
+    margin-left: -450px;
+  }
+  .botoom-Daftar {
+    margin-left: -50px;
+  }
+}
